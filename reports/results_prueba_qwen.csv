@@ -1,0 +1,21 @@
+model,tag,quantization,repetition,question_id,topic,difficulty,gold,prediction,parsed,correct,raw_response,total_seconds,eval_count,tokens_per_second
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0001,redes,facil,C,C,True,True,C,17.836974299978465,2,9.710859168264912
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0002,redes,facil,B,B,True,True,B,4.795837900019251,2,10.527146880016844
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0003,redes,facil,B,B,True,True,B,4.201485099969432,2,11.046245105132638
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0004,redes,media,C,C,True,True,C,7.581202800036408,2,10.913456291607552
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0005,redes,media,B,A,True,False,A,5.13307129999157,2,10.022600965176473
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0006,redes,media,C,C,True,True,C,6.172670800006017,2,8.63129275187191
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0007,redes,media,B,B,True,True,B,4.052412600023672,2,12.79582344322813
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0008,redes,media,B,B,True,True,B,5.586860899988096,2,11.84483269173823
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0009,redes,media,B,A,True,False,A,5.271982199978083,2,13.135426244581636
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0010,redes,dificil,D,B,True,False,B,6.047570700000506,2,13.560793035176697
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0001,redes,facil,C,C,True,True,C,43.335704599972814,2,5.728902600062445
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0002,redes,facil,B,B,True,True,B,7.180291299999226,2,4.089318903490029
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0003,redes,facil,B,B,True,True,B,6.303769400052261,2,8.847639228662812
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0004,redes,media,C,C,True,True,C,10.164216500008479,2,5.871990604815032
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0005,redes,media,B,A,True,False,A,5.90264639997622,2,9.208739093399636
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0006,redes,media,C,C,True,True,C,7.118783299985807,2,9.474407257395958
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0007,redes,media,B,B,True,True,B,5.116572199971415,2,8.436718285321376
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0008,redes,media,B,B,True,True,B,7.474511799984612,2,8.886519150448768
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0009,redes,media,B,A,True,False,A,6.900711799971759,2,10.132328206375261
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0010,redes,dificil,D,D,True,True,D) 100 ms,9.832118200021796,8,5.655272941144868

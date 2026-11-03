@@ -1,0 +1,5 @@
+Responde a la siguiente pregunta de opción múltiple. Contesta únicamente con la letra de la opción correcta (A, B, C o D), sin explicaciones.
+
+Pregunta: {question}
+
+{options}

@@ -1,48 +1,40 @@
-# Configuración por defecto del benchmark.
-# Cada experimento debe poder reproducirse solo con este fichero.
+# Configuración del benchmark. Cada experimento debe reproducirse solo con este fichero.
 
 experiment:
   name: baseline-cuantizacion
   seed: 42
-  repetitions: 3            # ejecuciones por modelo para estimar varianza
-  bootstrap_samples: 1000   # remuestreos para intervalos de confianza
+  # Con temperatura 0 las respuestas son casi idénticas entre repeticiones.
+  # Las repeticiones sirven sobre todo para medir la variación de tiempos.
+  repetitions: 1
+  bootstrap_samples: 1000   # remuestreos para intervalos de confianza (pendiente)
 
 dataset:
   path: data/questions.jsonl
   schema: data/schema.json
 
 inference:
-  backend: ollama           # ollama | llamacpp
-  base_url: http://localhost:11434
+  base_url: http://localhost:11434   # en la torre, usar la IP de la torre
   temperature: 0.0
-  max_tokens: 512
+  max_tokens: 64                     # las respuestas de opción múltiple son cortas
   context_length: 4096
-  prompt_template: prompts/es_v1.txt   # fijar la versión del prompt
+  prompt_template: prompts/es_v1.txt
 
-# Modelos a evaluar. Completar tag y cuantización con los valores exactos
-# que se usen en cada ejecución; no dejar versiones genéricas.
+# Modelos evaluados. `tag` debe coincidir exactamente con el nombre de Ollama.
+# `think: false` desactiva el modo de pensamiento en modelos que lo tienen.
 models:
-  - name: modelo-a
-    family: pendiente
-    tag: pendiente
-    quantization: Q4_K_M
-    params_billion: 8
-  - name: modelo-b
-    family: pendiente
-    tag: pendiente
-    quantization: Q4_K_M
-    params_billion: 8
-  - name: modelo-c
-    family: pendiente
-    tag: pendiente
+  - name: qwen2.5-7b
+    tag: qwen2.5:7b
     quantization: Q4_K_M
     params_billion: 7
-
-# Variantes de cuantización para la segunda pregunta de investigación.
-quantization_study:
-  enabled: false
-  model: modelo-a
-  levels: [Q4_K_M, Q8_0, F16]
+  - name: qwen3-8b
+    tag: qwen3:8b
+    think: false
+    quantization: Q4_K_M
+    params_billion: 8
+  - name: llama3.1-8b
+    tag: llama3.1:8b
+    quantization: Q4_K_M
+    params_billion: 8
 
 output:
   results_csv: reports/results.csv

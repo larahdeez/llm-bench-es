@@ -1,0 +1,31 @@
+model,tag,quantization,repetition,question_id,topic,difficulty,gold,prediction,parsed,correct,raw_response,total_seconds,eval_count,tokens_per_second
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0001,redes,facil,C,C,True,True,C,15.539305500045884,2,0.46882885858898665
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0002,redes,facil,B,B,True,True,B,8.559891599987168,2,1.0601480284692153
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0003,redes,facil,B,B,True,True,B,9.29281070001889,2,0.9462873127001694
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0004,redes,media,C,C,True,True,C,7.429171999974642,2,12.02204843683315
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0005,redes,media,B,A,True,False,A,4.210676999995485,2,12.932929825922765
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0006,redes,media,C,C,True,True,C,5.14240890002111,2,10.723458100768335
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0007,redes,media,B,B,True,True,B,3.7656022000010125,2,13.122584624267597
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0008,redes,media,B,B,True,True,B,5.375094600021839,2,12.396181975951405
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0009,redes,media,B,A,True,False,A,2.3606422999873757,2,16.3509569397549
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0010,redes,dificil,D,B,True,False,B,2.336235199996736,2,16.53452822857332
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0001,redes,facil,C,C,True,True,C,11.333185800001957,2,0.7348475356704179
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0002,redes,facil,B,B,True,True,B,4.899587400024757,2,9.021037058420236
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0003,redes,facil,B,B,True,True,B,4.276711499958765,2,11.537152515387676
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0004,redes,media,C,C,True,True,C,2.455012099992018,2,12.10536509781135
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0005,redes,media,B,A,True,False,A,4.307241500006057,2,10.556819441438682
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0006,redes,media,C,C,True,True,C,2.444000599964056,2,14.87364835720554
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0007,redes,media,B,B,True,True,B,4.252723099954892,2,10.091682939505407
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0008,redes,media,B,B,True,True,B,2.4226604999857955,2,13.796338451774897
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0009,redes,media,B,A,True,False,A,2.3909566999645904,2,14.500634402755121
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0010,redes,dificil,D,D,True,True,D) 100 ms,3.2633609999902546,8,7.981363516189697
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0001,redes,facil,C,C,True,True,C),40.020614099979866,3,5.4121047134019955
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0002,redes,facil,B,B,True,True,B),4.545136700035073,3,7.922716541047595
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0003,redes,facil,B,B,True,True,B),4.441038799996022,3,7.563018854606005
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0004,redes,media,C,C,True,True,C),5.712218999979086,3,8.018817491713888
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0005,redes,media,B,B,True,True,B),4.41655260004336,3,7.238404076669176
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0006,redes,media,C,C,True,True,C,5.285430299991276,2,11.656777833471272
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0007,redes,media,B,B,True,True,B) 3,4.33269680000376,5,7.227888083380917
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0008,redes,media,B,A,True,False,A,5.473704200005159,2,11.316825856683717
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0009,redes,media,B,B,True,True,B),4.840681699977722,3,8.799202205666687
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0010,redes,dificil,D,B,True,False,B) 50 ms,7.227753199986182,6,5.910148019657152
