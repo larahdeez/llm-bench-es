@@ -1,0 +1,49 @@
+# Configuración por defecto del benchmark.
+# Cada experimento debe poder reproducirse solo con este fichero.
+
+experiment:
+  name: baseline-cuantizacion
+  seed: 42
+  repetitions: 3            # ejecuciones por modelo para estimar varianza
+  bootstrap_samples: 1000   # remuestreos para intervalos de confianza
+
+dataset:
+  path: data/questions.jsonl
+  schema: data/schema.json
+
+inference:
+  backend: ollama           # ollama | llamacpp
+  base_url: http://localhost:11434
+  temperature: 0.0
+  max_tokens: 512
+  context_length: 4096
+  prompt_template: prompts/es_v1.txt   # fijar la versión del prompt
+
+# Modelos a evaluar. Completar tag y cuantización con los valores exactos
+# que se usen en cada ejecución; no dejar versiones genéricas.
+models:
+  - name: modelo-a
+    family: pendiente
+    tag: pendiente
+    quantization: Q4_K_M
+    params_billion: 8
+  - name: modelo-b
+    family: pendiente
+    tag: pendiente
+    quantization: Q4_K_M
+    params_billion: 8
+  - name: modelo-c
+    family: pendiente
+    tag: pendiente
+    quantization: Q4_K_M
+    params_billion: 7
+
+# Variantes de cuantización para la segunda pregunta de investigación.
+quantization_study:
+  enabled: false
+  model: modelo-a
+  levels: [Q4_K_M, Q8_0, F16]
+
+output:
+  results_csv: reports/results.csv
+  figures_dir: reports/figures

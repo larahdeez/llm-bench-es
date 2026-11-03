@@ -1,0 +1,21 @@
+# Entornos y cachés
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Pesos de modelos (nunca se suben al repositorio)
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# Resultados intermedios y datos temporales
+reports/tmp/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db

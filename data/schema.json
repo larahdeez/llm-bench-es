@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pregunta del benchmark",
+  "type": "object",
+  "required": ["id", "task_type", "topic", "difficulty", "question", "answer", "source", "annotator"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z]+-[0-9]{4}$" },
+    "task_type": {
+      "type": "string",
+      "enum": ["multiple_choice", "short_answer", "extraction", "reasoning"]
+    },
+    "topic": { "type": "string", "minLength": 1 },
+    "difficulty": { "type": "string", "enum": ["facil", "media", "dificil"] },
+    "question": { "type": "string", "minLength": 10 },
+    "choices": {
+      "type": "array",
+      "minItems": 4,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "answer": { "type": "string", "minLength": 1 },
+    "answer_aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "source": { "type": "string", "minLength": 1 },
+    "annotator": { "type": "string", "minLength": 1 }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "task_type": { "const": "multiple_choice" } } },
+      "then": { "required": ["choices"] }
+    }
+  ]
+}
