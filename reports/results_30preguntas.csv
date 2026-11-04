@@ -1,0 +1,271 @@
+model,tag,quantization,repetition,question_id,topic,difficulty,choice_order,gold,prediction,parsed,correct,raw_response,total_seconds,eval_count,tokens_per_second
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0001,redes,facil,"3,2,1,0",B,B,True,True,B,20.11452790000476,2,14.773121782229412
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0002,redes,facil,"1,0,2,3",A,A,True,True,A,3.5645014999900013,2,14.85873061864325
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0003,redes,facil,"2,1,0,3",B,B,True,True,B,3.5997128000017256,2,13.713940906628634
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0004,redes,media,"0,1,2,3",C,C,True,True,C,5.249103200039826,2,14.410363933741147
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0005,redes,media,"3,0,1,2",C,A,True,False,A,3.6898507000878453,2,14.749371308047994
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0006,redes,media,"1,2,0,3",B,B,True,True,B,4.414328700047918,2,13.669979358331169
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0007,redes,media,"2,1,3,0",B,B,True,True,B,3.580494199995883,2,15.084093823063577
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0008,redes,media,"1,2,0,3",A,A,True,True,A,4.686956599936821,2,14.753179310141336
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0009,redes,media,"1,2,0,3",A,A,True,True,A,4.32816780009307,2,14.911574364021353
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0010,redes,dificil,"1,0,3,2",C,A,True,False,A,5.1573075000196695,2,14.319364792977785
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0011,redes,facil,"3,1,2,0",D,D,True,True,D,4.206881999969482,2,14.685042549910788
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0012,redes,media,"2,0,1,3",A,A,True,True,A,4.718697399948724,2,15.320504963843609
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0013,redes,media,"2,1,0,3",D,B,True,False,B,4.550954699981958,2,15.41794185894125
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0014,redes,media,"2,0,1,3",C,C,True,True,C,5.0184847000055015,2,14.589594701059204
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0015,redes,dificil,"0,1,2,3",A,B,True,False,B,4.366743299993686,2,14.979478227174857
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,redes-0016,redes,dificil,"1,3,2,0",C,B,True,False,B,5.432012500008568,2,13.549217532687488
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,criptografia-0001,criptografia,facil,"3,1,2,0",A,A,True,True,A,4.211574399960227,2,14.585977041672137
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,criptografia-0002,criptografia,facil,"1,0,2,3",A,A,True,True,A,4.525984499952756,2,15.178191973772085
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,criptografia-0003,criptografia,media,"2,0,3,1",B,B,True,True,B,4.1882171999895945,2,15.19941634241245
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,criptografia-0004,criptografia,media,"2,1,3,0",A,A,True,True,A,4.48658680007793,2,14.850786720426516
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,criptografia-0005,criptografia,media,"1,2,3,0",C,C,True,True,C,5.105714400066063,2,14.600671630895022
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,criptografia-0006,criptografia,dificil,"3,2,0,1",D,A,True,False,A,4.189778300002217,2,14.886601314486896
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,criptografia-0007,criptografia,dificil,"3,2,1,0",B,C,True,False,C,4.590715799946338,2,14.807685188612892
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,sistemas-0001,sistemas,facil,"0,3,2,1",D,D,True,True,D,4.89108380000107,2,15.204847305320937
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,sistemas-0002,sistemas,facil,"1,3,2,0",B,B,True,True,B,3.5221946999663487,2,14.925818681154661
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,sistemas-0003,sistemas,media,"2,0,1,3",B,A,True,False,A,4.216306899907067,2,15.114530353755583
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,sistemas-0004,sistemas,media,"0,3,2,1",C,C,True,True,C,4.420582799939439,2,14.846487321099827
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,sistemas-0005,sistemas,media,"1,0,2,3",D,D,True,True,D,4.478624100098386,2,14.386936661511347
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,sistemas-0006,sistemas,dificil,"3,2,0,1",D,A,True,False,A,6.206650900072418,2,10.211114798458121
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,0,sistemas-0007,sistemas,dificil,"2,0,3,1",B,B,True,True,B,5.430741700110957,2,11.319323783597167
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0001,redes,facil,"2,0,3,1",A,A,True,True,A,3.688152299961075,2,15.208084733425734
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0002,redes,facil,"1,2,0,3",A,A,True,True,A,3.5889910999685526,2,15.013098928815392
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0003,redes,facil,"0,1,2,3",B,B,True,True,B,3.4735623999731615,2,15.375981179799037
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0004,redes,media,"1,0,3,2",D,D,True,True,D,5.845809500082396,2,12.857023470496346
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0005,redes,media,"0,1,2,3",B,A,True,False,A,3.8117819000035524,2,13.16898440792246
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0006,redes,media,"3,0,1,2",D,D,True,True,D,4.632996000000276,2,12.659990631606933
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0007,redes,media,"3,2,1,0",C,C,True,True,C,3.607431899989024,2,14.687091515267232
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0008,redes,media,"2,1,0,3",B,B,True,True,B,5.105560400057584,2,13.35291761249833
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0009,redes,media,"2,0,1,3",C,C,True,True,C,3.035531400004402,2,15.277671682835535
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0010,redes,dificil,"3,0,1,2",A,C,True,False,C,3.3579671001061797,2,15.095820722033105
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0011,redes,facil,"0,3,2,1",A,A,True,True,A,3.9813386999303475,2,15.436744081938237
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0012,redes,media,"0,2,1,3",B,B,True,True,B,4.750093600014225,2,14.951147126763301
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0013,redes,media,"3,2,0,1",A,B,True,False,B,3.7265554000623524,2,15.089215097432684
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0014,redes,media,"0,2,1,3",C,C,True,True,C,5.006484699901193,2,15.175888548274504
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0015,redes,dificil,"3,0,1,2",B,B,True,True,B,3.0763803999871016,2,15.106196675928253
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,redes-0016,redes,dificil,"0,3,1,2",D,D,True,True,D,4.046058700070716,2,15.495227469939259
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,criptografia-0001,criptografia,facil,"3,0,1,2",A,A,True,True,A,4.177205599960871,2,14.52939296196205
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,criptografia-0002,criptografia,facil,"0,3,2,1",D,D,True,True,D,4.5245799999684095,2,15.07624823853827
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,criptografia-0003,criptografia,media,"2,0,3,1",B,B,True,True,B,4.148387300083414,2,14.936073604970726
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,criptografia-0004,criptografia,media,"3,0,2,1",C,C,True,True,C,4.450434200000018,2,15.033298756746195
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,criptografia-0005,criptografia,media,"0,3,1,2",B,B,True,True,B,4.420429000048898,2,14.81437587034458
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,criptografia-0006,criptografia,dificil,"1,2,0,3",A,B,True,False,B,4.247749300091527,2,14.417739586787583
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,criptografia-0007,criptografia,dificil,"1,2,0,3",B,A,True,False,A,4.818142800009809,2,12.708095056551024
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,sistemas-0001,sistemas,facil,"0,2,3,1",D,D,True,True,D,4.040251099970192,2,15.242972989451864
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,sistemas-0002,sistemas,facil,"3,0,2,1",A,A,True,True,A,3.555168299935758,2,15.235193296514948
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,sistemas-0003,sistemas,media,"0,3,2,1",A,A,True,True,A,4.244847499998286,2,14.776832881408529
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,sistemas-0004,sistemas,media,"3,2,1,0",B,B,True,True,B,4.465428099967539,2,15.311473652781714
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,sistemas-0005,sistemas,media,"2,3,1,0",B,C,True,False,C,3.050307000055909,2,15.011408670589649
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,sistemas-0006,sistemas,dificil,"3,0,1,2",C,B,True,False,B,2.917822299990803,2,14.913798246137326
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,1,sistemas-0007,sistemas,dificil,"3,0,2,1",B,B,True,True,B,2.987390200025402,2,15.134202541032607
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0001,redes,facil,"3,1,2,0",C,C,True,True,C,3.6842478999169543,2,15.539653310334645
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0002,redes,facil,"1,2,3,0",A,A,True,True,A,3.5259897999931127,2,15.222090297439644
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0003,redes,facil,"3,2,0,1",D,D,True,True,D,3.4313464000588283,2,15.13065330476656
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0004,redes,media,"2,1,0,3",A,A,True,True,A,5.275263499934226,2,15.301282247452338
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0005,redes,media,"2,1,3,0",B,B,True,True,B,3.623100500088185,2,15.299643518306024
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0006,redes,media,"3,2,0,1",B,B,True,True,B,4.3500412999419495,2,15.148646089755728
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0007,redes,media,"0,1,2,3",B,B,True,True,B,3.5737573000369594,2,15.275454635718598
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0008,redes,media,"1,2,3,0",A,A,True,True,A,4.591051600058563,2,15.097644012651825
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0009,redes,media,"3,0,2,1",D,A,True,False,A,3.102880400023423,2,15.131797960233634
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0010,redes,dificil,"1,2,0,3",D,A,True,False,A,3.2544436999596655,2,14.821731622905505
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0011,redes,facil,"1,3,2,0",D,D,True,True,D,4.046467500040308,2,15.32250044299264
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0012,redes,media,"1,3,2,0",C,C,True,True,C,4.735354600008577,2,14.958303728357205
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0013,redes,media,"3,1,0,2",A,D,True,False,D,3.311862999922596,2,14.484776499898606
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0014,redes,media,"1,3,0,2",A,C,True,False,C,5.0637180000776425,2,15.142108690056176
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0015,redes,dificil,"2,0,1,3",B,C,True,False,C,3.060853899922222,2,14.737959087425574
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,redes-0016,redes,dificil,"0,3,1,2",D,D,True,True,D,2.4644793000770733,2,15.536031942081674
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,criptografia-0001,criptografia,facil,"1,3,0,2",B,B,True,True,B,4.188955400022678,2,14.867125069689648
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,criptografia-0002,criptografia,facil,"2,3,0,1",D,D,True,True,D,3.4515335999894887,2,15.16541689856169
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,criptografia-0003,criptografia,media,"1,2,0,3",C,C,True,True,C,4.144630700000562,2,14.95360643603221
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,criptografia-0004,criptografia,media,"2,0,3,1",A,A,True,True,A,4.455904999980703,2,14.95774437214868
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,criptografia-0005,criptografia,media,"2,0,1,3",D,D,True,True,D,4.477048299973831,2,14.840648536341039
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,criptografia-0006,criptografia,dificil,"0,1,2,3",B,A,True,False,A,3.0366247999481857,2,15.083411264291533
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,criptografia-0007,criptografia,dificil,"0,3,2,1",C,D,True,False,D,2.9509499000851065,2,15.237979139206558
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,sistemas-0001,sistemas,facil,"2,3,1,0",C,C,True,True,C,4.590201799990609,2,15.051513806001038
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,sistemas-0002,sistemas,facil,"3,0,2,1",A,A,True,True,A,3.55032260005828,2,15.149793698820542
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,sistemas-0003,sistemas,media,"2,0,1,3",B,A,True,False,A,4.231729699997231,2,15.093770046413342
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,sistemas-0004,sistemas,media,"1,0,2,3",C,C,True,True,C,4.506817799992859,2,15.163117233640893
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,sistemas-0005,sistemas,media,"1,3,2,0",B,A,True,False,A,3.083765499992296,2,15.410220176679868
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,sistemas-0006,sistemas,dificil,"1,0,3,2",A,A,True,True,A,3.1823703000554815,2,15.41865503072167
+qwen2.5-7b,qwen2.5:7b,Q4_K_M,2,sistemas-0007,sistemas,dificil,"2,0,3,1",B,B,True,True,B,3.012144700041972,2,15.13328653465361
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0001,redes,facil,"3,2,1,0",B,B,True,True,B,38.35432829998899,2,8.238996819747229
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0002,redes,facil,"1,0,2,3",A,A,True,True,A,3.963269100058824,2,12.83977247923167
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0003,redes,facil,"2,1,0,3",B,B,True,True,B,3.7831518000457436,2,13.121551492248443
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0004,redes,media,"0,1,2,3",C,C,True,True,C,5.697237399988808,2,13.248981484548375
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0005,redes,media,"3,0,1,2",C,C,True,True,C) 62,4.840117299929261,6,7.111911859705685
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0006,redes,media,"1,2,0,3",B,B,True,True,B,5.288436000002548,2,11.045208036493367
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0007,redes,media,"2,1,3,0",B,B,True,True,B) 3,4.275880999979563,5,8.176441056854065
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0008,redes,media,"1,2,0,3",A,A,True,True,A,6.321779399993829,2,8.679651425198765
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0009,redes,media,"1,2,0,3",A,A,True,True,A,4.9396052999654785,2,11.857473172466948
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0010,redes,dificil,"1,0,3,2",C,A,True,False,A,6.249372500111349,2,11.232610514846703
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0011,redes,facil,"3,1,2,0",D,D,True,True,D,4.779442700091749,2,12.120330642619932
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0012,redes,media,"2,0,1,3",A,A,True,True,A,5.650325300055556,2,11.273639412643385
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0013,redes,media,"2,1,0,3",D,D,True,True,D,5.431790699949488,2,10.40441979752999
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0014,redes,media,"2,0,1,3",C,A,True,False,A,6.1985136000439525,2,11.331123764199315
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0015,redes,dificil,"0,1,2,3",A,D,True,False,D,5.027189300046302,2,11.898246198510341
+qwen3-8b,qwen3:8b,Q4_K_M,0,redes-0016,redes,dificil,"1,3,2,0",C,A,True,False,A,6.751564700040035,2,10.785624919107812
+qwen3-8b,qwen3:8b,Q4_K_M,0,criptografia-0001,criptografia,facil,"3,1,2,0",A,A,True,True,A,4.824174700072035,2,11.833619312466718
+qwen3-8b,qwen3:8b,Q4_K_M,0,criptografia-0002,criptografia,facil,"1,0,2,3",A,A,True,True,A,5.361179500003345,2,11.796626164916834
+qwen3-8b,qwen3:8b,Q4_K_M,0,criptografia-0003,criptografia,media,"2,0,3,1",B,B,True,True,B) ECB,5.1634756999555975,4,7.416416980628318
+qwen3-8b,qwen3:8b,Q4_K_M,0,criptografia-0004,criptografia,media,"2,1,3,0",A,A,True,True,A,5.246680399985053,2,11.661807580174926
+qwen3-8b,qwen3:8b,Q4_K_M,0,criptografia-0005,criptografia,media,"1,2,3,0",C,C,True,True,C,6.625389000051655,2,8.773199629770975
+qwen3-8b,qwen3:8b,Q4_K_M,0,criptografia-0006,criptografia,dificil,"3,2,0,1",D,A,True,False,A,5.693266600021161,2,8.80281690140845
+qwen3-8b,qwen3:8b,Q4_K_M,0,criptografia-0007,criptografia,dificil,"3,2,1,0",B,C,True,False,C,6.482258399948478,2,8.680442528960127
+qwen3-8b,qwen3:8b,Q4_K_M,0,sistemas-0001,sistemas,facil,"0,3,2,1",D,D,True,True,D,7.115156100015156,2,8.56864988068155
+qwen3-8b,qwen3:8b,Q4_K_M,0,sistemas-0002,sistemas,facil,"1,3,2,0",B,B,True,True,B,4.36260459991172,2,10.382814365661957
+qwen3-8b,qwen3:8b,Q4_K_M,0,sistemas-0003,sistemas,media,"2,0,1,3",B,B,True,True,B,5.239618899999186,2,10.883939115244589
+qwen3-8b,qwen3:8b,Q4_K_M,0,sistemas-0004,sistemas,media,"0,3,2,1",C,C,True,True,C,5.7418853000272065,2,10.710020830990517
+qwen3-8b,qwen3:8b,Q4_K_M,0,sistemas-0005,sistemas,media,"1,0,2,3",D,D,True,True,D) 12,6.526416499982588,6,6.343145121645665
+qwen3-8b,qwen3:8b,Q4_K_M,0,sistemas-0006,sistemas,dificil,"3,2,0,1",D,A,True,False,A,7.302274000016041,2,10.6206156770908
+qwen3-8b,qwen3:8b,Q4_K_M,0,sistemas-0007,sistemas,dificil,"2,0,3,1",B,C,True,False,C,6.079330999986269,2,10.590639992374738
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0001,redes,facil,"2,0,3,1",A,A,True,True,A,4.594156299950555,2,10.966415352981494
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0002,redes,facil,"1,2,0,3",A,A,True,True,A,4.184798200032674,2,10.297070483447458
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0003,redes,facil,"0,1,2,3",B,B,True,True,B,4.316921100020409,2,10.368496360657778
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0004,redes,media,"1,0,3,2",D,D,True,True,D,5.247303300071508,2,10.377965503642667
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0005,redes,media,"0,1,2,3",B,A,True,False,A,4.480508700013161,2,9.796622124691407
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0006,redes,media,"3,0,1,2",D,D,True,True,D,7.112090799957514,2,6.75080418954908
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0007,redes,media,"3,2,1,0",C,C,True,True,C,5.636975700035691,2,7.09536885274981
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0008,redes,media,"2,1,0,3",B,B,True,True,B,8.0622484999476,2,7.0743621578219456
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0009,redes,media,"2,0,1,3",C,B,True,False,B,4.927650399971753,2,5.900070505842545
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0010,redes,dificil,"3,0,1,2",A,A,True,True,A,4.722370800096542,2,9.795326649655449
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0011,redes,facil,"0,3,2,1",A,A,True,True,A) TTL,5.640507200034335,4,7.6026837473628195
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0012,redes,media,"0,2,1,3",B,B,True,True,B,4.899116600048728,2,10.494115424775558
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0013,redes,media,"3,2,0,1",A,C,True,False,C,4.573743299930356,2,10.559383332013411
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0014,redes,media,"0,2,1,3",C,A,True,False,A,6.834185599931516,2,10.115263426747791
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0015,redes,dificil,"3,0,1,2",B,A,True,False,A,3.454278799938038,2,11.620002672600615
+qwen3-8b,qwen3:8b,Q4_K_M,1,redes-0016,redes,dificil,"0,3,1,2",D,A,True,False,A,5.17985439999029,2,10.864664309034511
+qwen3-8b,qwen3:8b,Q4_K_M,1,criptografia-0001,criptografia,facil,"3,0,1,2",A,A,True,True,A,5.220454600057565,2,11.270335912361867
+qwen3-8b,qwen3:8b,Q4_K_M,1,criptografia-0002,criptografia,facil,"0,3,2,1",D,D,True,True,D,5.6010836999630556,2,11.429485787434423
+qwen3-8b,qwen3:8b,Q4_K_M,1,criptografia-0003,criptografia,media,"2,0,3,1",B,B,True,True,B) ECB,5.457036499981768,4,7.494650693067823
+qwen3-8b,qwen3:8b,Q4_K_M,1,criptografia-0004,criptografia,media,"3,0,2,1",C,C,True,True,C,6.00049540004693,2,10.94055993785762
+qwen3-8b,qwen3:8b,Q4_K_M,1,criptografia-0005,criptografia,media,"0,3,1,2",B,B,True,True,B,6.736658000038005,2,6.609450853775814
+qwen3-8b,qwen3:8b,Q4_K_M,1,criptografia-0006,criptografia,dificil,"1,2,0,3",A,B,True,False,B) 13,8.253367799916305,6,4.58726468287857
+qwen3-8b,qwen3:8b,Q4_K_M,1,criptografia-0007,criptografia,dificil,"1,2,0,3",B,D,True,False,D,7.534186900011264,2,7.8708550109798425
+qwen3-8b,qwen3:8b,Q4_K_M,1,sistemas-0001,sistemas,facil,"0,2,3,1",D,D,True,True,D,6.330293400096707,2,8.105139874451384
+qwen3-8b,qwen3:8b,Q4_K_M,1,sistemas-0002,sistemas,facil,"3,0,2,1",A,A,True,True,A,3.5257726999698207,2,10.562115803037665
+qwen3-8b,qwen3:8b,Q4_K_M,1,sistemas-0003,sistemas,media,"0,3,2,1",A,A,True,True,A,5.87262549996376,2,8.524386137643264
+qwen3-8b,qwen3:8b,Q4_K_M,1,sistemas-0004,sistemas,media,"3,2,1,0",B,B,True,True,B,4.335530400043353,2,9.727863031688514
+qwen3-8b,qwen3:8b,Q4_K_M,1,sistemas-0005,sistemas,media,"2,3,1,0",B,B,True,True,B) 12,4.27983969997149,6,6.521817108682821
+qwen3-8b,qwen3:8b,Q4_K_M,1,sistemas-0006,sistemas,dificil,"3,0,1,2",C,B,True,False,B) 7 ms,4.024641299969517,6,6.805830782092045
+qwen3-8b,qwen3:8b,Q4_K_M,1,sistemas-0007,sistemas,dificil,"3,0,2,1",B,A,True,False,A,3.4882538999663666,2,10.796629292334934
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0001,redes,facil,"3,1,2,0",C,C,True,True,C,4.904585300013423,2,8.95776414207014
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0002,redes,facil,"1,2,3,0",A,A,True,True,A,4.114841799950227,2,9.217651803203134
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0003,redes,facil,"3,2,0,1",D,D,True,True,D,5.065586999990046,2,8.592763174854138
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0004,redes,media,"2,1,0,3",A,A,True,True,A,5.44753430003766,2,8.331111703545721
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0005,redes,media,"2,1,3,0",B,B,True,True,B) 62,5.72893079998903,6,5.506415892250454
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0006,redes,media,"3,2,0,1",B,B,True,True,B,4.637223500059918,2,9.411277533868835
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0007,redes,media,"0,1,2,3",B,B,True,True,B,4.110133899957873,2,9.731697110659129
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0008,redes,media,"1,2,3,0",A,A,True,True,A,6.453805200057104,2,8.496140628119676
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0009,redes,media,"3,0,2,1",D,A,True,False,A,3.5784569999668747,2,11.210699491594777
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0010,redes,dificil,"1,2,0,3",D,D,True,True,D) 100 ms,5.129983899998479,8,5.371651111260324
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0011,redes,facil,"1,3,2,0",D,D,True,True,D,5.620691200019792,2,9.459127111750128
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0012,redes,media,"1,3,2,0",C,C,True,True,C,5.028368699946441,2,9.46006669347019
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0013,redes,media,"3,1,0,2",A,C,True,False,C,3.9830773000139743,2,10.674751011432658
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0014,redes,media,"1,3,0,2",A,A,True,True,A,5.651066199992783,2,8.656959329605069
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0015,redes,dificil,"2,0,1,3",B,D,True,False,D,3.5399071000283584,2,10.97399711383876
+qwen3-8b,qwen3:8b,Q4_K_M,2,redes-0016,redes,dificil,"0,3,1,2",D,A,True,False,A,2.5069765000371262,2,13.68588164449554
+qwen3-8b,qwen3:8b,Q4_K_M,2,criptografia-0001,criptografia,facil,"1,3,0,2",B,B,True,True,B,4.749585199984722,2,11.234566514251046
+qwen3-8b,qwen3:8b,Q4_K_M,2,criptografia-0002,criptografia,facil,"2,3,0,1",D,D,True,True,D,4.289955500047654,2,9.31753700226882
+qwen3-8b,qwen3:8b,Q4_K_M,2,criptografia-0003,criptografia,media,"1,2,0,3",C,C,True,True,C,5.766406899900176,2,8.553990650488219
+qwen3-8b,qwen3:8b,Q4_K_M,2,criptografia-0004,criptografia,media,"2,0,3,1",A,A,True,True,A,6.412918300018646,2,7.665625448594796
+qwen3-8b,qwen3:8b,Q4_K_M,2,criptografia-0005,criptografia,media,"2,0,1,3",D,D,True,True,D,6.091602999949828,2,9.696969696969697
+qwen3-8b,qwen3:8b,Q4_K_M,2,criptografia-0006,criptografia,dificil,"0,1,2,3",B,C,True,False,C,3.4332676000194624,2,12.469838577939608
+qwen3-8b,qwen3:8b,Q4_K_M,2,criptografia-0007,criptografia,dificil,"0,3,2,1",C,D,True,False,D,3.327119500027038,2,12.953032304862568
+qwen3-8b,qwen3:8b,Q4_K_M,2,sistemas-0001,sistemas,facil,"2,3,1,0",C,C,True,True,C,6.300400800071657,2,9.178775000688407
+qwen3-8b,qwen3:8b,Q4_K_M,2,sistemas-0002,sistemas,facil,"3,0,2,1",A,A,True,True,A,2.449354699929245,2,13.896995469579478
+qwen3-8b,qwen3:8b,Q4_K_M,2,sistemas-0003,sistemas,media,"2,0,1,3",B,B,True,True,B,3.816675099893473,2,13.631871315134784
+qwen3-8b,qwen3:8b,Q4_K_M,2,sistemas-0004,sistemas,media,"1,0,2,3",C,C,True,True,C,4.077608000021428,2,10.87618550421996
+qwen3-8b,qwen3:8b,Q4_K_M,2,sistemas-0005,sistemas,media,"1,3,2,0",B,B,True,True,B) 12,4.745009500067681,6,4.994506043352312
+qwen3-8b,qwen3:8b,Q4_K_M,2,sistemas-0006,sistemas,dificil,"1,0,3,2",A,B,True,False,B) 7 ms,6.037777699995786,6,3.7807302480474103
+qwen3-8b,qwen3:8b,Q4_K_M,2,sistemas-0007,sistemas,dificil,"2,0,3,1",B,C,True,False,C,3.8432510000420734,2,8.940425474848347
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0001,redes,facil,"3,2,1,0",B,B,True,True,B) Red,54.939330300083384,4,0.5653038274884922
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0002,redes,facil,"1,0,2,3",A,A,True,True,A) 443,11.058330299914815,5,3.7214591990377794
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0003,redes,facil,"2,1,0,3",B,B,True,True,B),5.3743757000193,3,5.715657472079013
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0004,redes,media,"0,1,2,3",C,C,True,True,C),7.2510229999898,3,5.773005437734298
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0005,redes,media,"3,0,1,2",C,A,True,False,A) 126,5.292918200022541,5,4.7245671824004205
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0006,redes,media,"1,2,0,3",B,B,True,True,B),6.342824200051837,3,6.92827846136792
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0007,redes,media,"2,1,3,0",B,B,True,True,B) 3,4.686293500009924,5,6.125581777129283
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0008,redes,media,"1,2,0,3",A,C,True,False,C),6.145715899998322,3,7.043642408362212
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0009,redes,media,"1,2,0,3",A,C,True,False,C) 14,5.471407600096427,5,6.186089958120171
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0010,redes,dificil,"1,0,3,2",C,B,True,False,B),7.374340599984862,3,6.087563513579325
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0011,redes,facil,"3,1,2,0",D,D,True,True,D),6.398241200018674,3,5.535402589830359
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0012,redes,media,"2,0,1,3",A,A,True,True,A,6.068022400024347,2,8.39757478040342
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0013,redes,media,"2,1,0,3",D,C,True,False,C),5.5987794999964535,3,7.36872614374911
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0014,redes,media,"2,0,1,3",C,B,True,False,B),5.546914599952288,3,6.998031220549952
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0015,redes,dificil,"0,1,2,3",A,B,True,False,B),5.321519699995406,3,7.706614330192459
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,redes-0016,redes,dificil,"1,3,2,0",C,D,True,False,D),6.141706999973394,3,6.981095194214069
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,criptografia-0001,criptografia,facil,"3,1,2,0",A,A,True,True,A,5.295164300012402,2,10.2705783876219
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,criptografia-0002,criptografia,facil,"1,0,2,3",A,A,True,True,A),5.59555760002695,3,9.417969485778867
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,criptografia-0003,criptografia,media,"2,0,3,1",B,B,True,True,B),4.517615500022657,3,9.972210772646891
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,criptografia-0004,criptografia,media,"2,1,3,0",A,A,True,True,A),4.872026100056246,3,9.693585754306374
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,criptografia-0005,criptografia,media,"1,2,3,0",C,C,True,True,C),6.038697299896739,3,9.17473278590761
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,criptografia-0006,criptografia,dificil,"3,2,0,1",D,B,True,False,B),4.493940900079906,3,9.900728693631851
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,criptografia-0007,criptografia,dificil,"3,2,1,0",B,B,True,True,B),4.829954199958593,3,9.51296776055226
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,sistemas-0001,sistemas,facil,"0,3,2,1",D,D,True,True,D),5.811077499995008,3,8.989302729751595
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,sistemas-0002,sistemas,facil,"1,3,2,0",B,B,True,True,B),3.8147872000699863,3,9.672770184653183
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,sistemas-0003,sistemas,media,"2,0,1,3",B,D,True,False,D),5.816675800015219,3,7.543127833387393
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,sistemas-0004,sistemas,media,"0,3,2,1",C,B,True,False,B),6.712225400027819,3,6.62763724732133
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,sistemas-0005,sistemas,media,"1,0,2,3",D,B,True,False,B) 10,5.959776299889199,5,7.40734156437128
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,sistemas-0006,sistemas,dificil,"3,2,0,1",D,A,True,False,A),7.685597600066103,3,7.833245862087873
+llama3.1-8b,llama3.1:8b,Q4_K_M,0,sistemas-0007,sistemas,dificil,"2,0,3,1",B,D,True,False,D),6.874770599999465,3,8.427984278999991
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0001,redes,facil,"2,0,3,1",A,A,True,True,A) Red,4.999390300014056,4,7.130086648377994
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0002,redes,facil,"1,2,0,3",A,A,True,True,A) 443,4.873019099934027,5,6.210323793861964
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0003,redes,facil,"0,1,2,3",B,B,True,True,B),4.380298199946992,3,8.182591808680094
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0004,redes,media,"1,0,3,2",D,C,True,False,C),5.451704100007191,3,9.110621162150835
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0005,redes,media,"0,1,2,3",B,B,True,True,B),3.7866282999748364,3,9.175995595522114
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0006,redes,media,"3,0,1,2",D,D,True,True,D),5.40751829999499,3,8.714470378062774
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0007,redes,media,"3,2,1,0",C,D,True,False,D) 2,4.25985779997427,5,7.4493222606607254
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0008,redes,media,"2,1,0,3",B,C,True,False,C),5.635149599984288,3,8.973116542837658
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0009,redes,media,"2,0,1,3",C,B,True,False,B),3.0794514999724925,3,9.900924746371311
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0010,redes,dificil,"3,0,1,2",A,C,True,False,C) 50 ms,3.719163000001572,6,7.50522551326361
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0011,redes,facil,"0,3,2,1",A,A,True,True,A) TTL,5.38035749993287,4,6.560926402808076
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0012,redes,media,"0,2,1,3",B,B,True,True,B,5.325296700000763,2,11.790784322973165
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0013,redes,media,"3,2,0,1",A,B,True,False,B),3.969822800019756,3,8.984268545776345
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0014,redes,media,"0,2,1,3",C,A,True,False,A),5.172078800038435,3,8.845174073025756
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0015,redes,dificil,"3,0,1,2",B,D,True,False,D),3.058201500098221,3,10.000633373446986
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,redes-0016,redes,dificil,"0,3,1,2",D,A,True,False,A),4.493750800029375,3,7.842071143269411
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,criptografia-0001,criptografia,facil,"3,0,1,2",A,A,True,True,A,5.563728900044225,2,11.7784242823995
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,criptografia-0002,criptografia,facil,"0,3,2,1",D,D,True,True,D),6.598134999978356,3,8.139235183200618
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,criptografia-0003,criptografia,media,"2,0,3,1",B,B,True,True,B),5.232921299990267,3,9.348357182031211
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,criptografia-0004,criptografia,media,"3,0,2,1",C,C,True,True,C),5.586385300033726,3,8.9571757427738
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,criptografia-0005,criptografia,media,"0,3,1,2",B,B,True,True,B),5.434232500032522,3,8.806770645272087
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,criptografia-0006,criptografia,dificil,"1,2,0,3",A,D,True,False,D) 7,5.306401500012726,5,7.724298170268249
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,criptografia-0007,criptografia,dificil,"1,2,0,3",B,D,True,False,D),5.476796100032516,3,8.873009488204813
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,sistemas-0001,sistemas,facil,"0,2,3,1",D,D,True,True,D),4.778178499895148,3,8.904772364335793
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,sistemas-0002,sistemas,facil,"3,0,2,1",A,A,True,True,A),3.9578984000254422,3,8.752198989996236
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,sistemas-0003,sistemas,media,"0,3,2,1",A,B,True,False,B),4.9590426998911425,3,9.25997376340767
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,sistemas-0004,sistemas,media,"3,2,1,0",B,D,True,False,D,5.852769799996167,2,9.240179998706374
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,sistemas-0005,sistemas,media,"2,3,1,0",B,B,True,True,B),3.0794367999769747,3,9.65959584250995
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,sistemas-0006,sistemas,dificil,"3,0,1,2",C,A,True,False,A),2.913498100009747,3,10.50758647743671
+llama3.1-8b,llama3.1:8b,Q4_K_M,1,sistemas-0007,sistemas,dificil,"3,0,2,1",B,B,True,True,B),2.9738168999319896,3,10.157749855252064
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0001,redes,facil,"3,1,2,0",C,C,True,True,C),4.1736307999817654,3,9.477624907198257
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0002,redes,facil,"1,2,3,0",A,A,True,True,A) 443,3.985522700008005,5,7.223815474857511
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0003,redes,facil,"3,2,0,1",D,D,True,True,D),3.682168700033799,3,9.231024859149947
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0004,redes,media,"2,1,0,3",A,A,True,True,A),44.580738299991935,3,0.7721173000602252
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0005,redes,media,"2,1,3,0",B,B,True,True,B),35.94735699996818,3,0.8332682921138655
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0006,redes,media,"3,2,0,1",B,B,True,True,B),58.74797100003343,3,0.7483034090957277
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0007,redes,media,"0,1,2,3",B,B,True,True,B) 3,42.76304470002651,5,0.6625134142403548
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0008,redes,media,"1,2,3,0",A,D,True,False,D),49.108794300002046,3,8.276889544909023
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0009,redes,media,"3,0,2,1",D,B,True,False,B),5.2469565999927,3,3.6141617313280356
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0010,redes,dificil,"1,2,0,3",D,D,True,True,D),4.441680999938399,3,5.97304960020388
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0011,redes,facil,"1,3,2,0",D,D,True,True,D),5.566975699970499,3,8.35452132770053
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0012,redes,media,"1,3,2,0",C,C,True,True,C,5.363169000018388,2,10.753902322305207
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0013,redes,media,"3,1,0,2",A,C,True,False,C),3.6720759999006987,3,9.221490992140216
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0014,redes,media,"1,3,0,2",A,B,True,False,B),5.595361199928448,3,8.472948699119943
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0015,redes,dificil,"2,0,1,3",B,B,True,True,B),3.282801700057462,3,8.962126055290343
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,redes-0016,redes,dificil,"0,3,1,2",D,A,True,False,A),2.515126199927181,3,10.581861278853209
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,criptografia-0001,criptografia,facil,"1,3,0,2",B,B,True,True,B,5.141411399934441,2,10.435254463680097
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,criptografia-0002,criptografia,facil,"2,3,0,1",D,D,True,True,D),3.9555670000845566,3,9.287666907114044
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,criptografia-0003,criptografia,media,"1,2,0,3",C,C,True,True,C,4.831713100080378,2,12.144839354137444
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,criptografia-0004,criptografia,media,"2,0,3,1",A,A,True,True,A),3.9452524000080302,3,8.993830232460532
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,criptografia-0005,criptografia,media,"2,0,1,3",D,D,True,True,D),5.603281099931337,3,8.833115940535462
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,criptografia-0006,criptografia,dificil,"0,1,2,3",B,A,True,False,A) 37,3.6014271999010816,5,7.365939893930466
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,criptografia-0007,criptografia,dificil,"0,3,2,1",C,B,True,False,B),3.5599526999285445,3,8.076044030592055
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,sistemas-0001,sistemas,facil,"2,3,1,0",C,C,True,True,C),5.915225300006568,3,8.380215986100014
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,sistemas-0002,sistemas,facil,"3,0,2,1",A,A,True,True,A),4.375670299981721,3,7.042468432135253
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,sistemas-0003,sistemas,media,"2,0,1,3",B,D,True,False,D),5.444526600069366,3,8.554612647139338
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,sistemas-0004,sistemas,media,"1,0,2,3",C,D,True,False,D,5.233167200000025,2,11.194572871072104
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,sistemas-0005,sistemas,media,"1,3,2,0",B,B,True,True,B) 12,3.4252103000180796,5,7.855743412566362
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,sistemas-0006,sistemas,dificil,"1,0,3,2",A,A,True,True,A),3.2732627000659704,3,9.441979038806533
+llama3.1-8b,llama3.1:8b,Q4_K_M,2,sistemas-0007,sistemas,dificil,"2,0,3,1",B,D,True,False,D),3.1472480000229552,3,9.527378510045033
