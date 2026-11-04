@@ -3,9 +3,11 @@
 experiment:
   name: baseline-cuantizacion
   seed: 42
-  # Con temperatura 0 las respuestas son casi idénticas entre repeticiones.
-  # Las repeticiones sirven sobre todo para medir la variación de tiempos.
-  repetitions: 1
+  # Con temperatura 0, repetir el mismo prompt da la misma respuesta. Por eso en
+  # cada repetición se baraja el orden de las opciones (reproducible a partir de
+  # `seed`): así se comprueba si el modelo sabe la respuesta o elige una posición.
+  repetitions: 3
+  shuffle_choices: true
   bootstrap_samples: 1000   # remuestreos para intervalos de confianza (pendiente)
 
 dataset:
