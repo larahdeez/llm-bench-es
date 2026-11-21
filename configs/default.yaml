@@ -20,6 +20,8 @@ inference:
   max_tokens: 64                     # las respuestas de opción múltiple son cortas
   context_length: 4096
   prompt_template: prompts/es_v1.txt
+  keep_alive: 30m                    # tiempo que Ollama mantiene el modelo cargado entre peticiones
+  retries: 5                         # reintentos si Ollama falla o no responde (espera 5, 10, 20... s)
 
 # Modelos evaluados. `tag` debe coincidir exactamente con el nombre de Ollama.
 # `think: false` desactiva el modo de pensamiento en modelos que lo tienen.
