@@ -1,7 +1,8 @@
 # llm-bench-es
 
 [![tests](https://github.com/larahdeez/llm-bench-es/actions/workflows/tests.yml/badge.svg)](https://github.com/larahdeez/llm-bench-es/actions/workflows/tests.yml)
-[![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-blue.svg)](LICENSE)
+[![Código: MIT](https://img.shields.io/badge/código-MIT-blue.svg)](LICENSE)
+[![Datos: CC BY 4.0](https://img.shields.io/badge/datos-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.es)
 
 Benchmark reproducible para comparar modelos de lenguaje abiertos en preguntas técnicas en español, con foco en ciberseguridad e ingeniería informática. Los modelos se ejecutan en local con [Ollama](https://ollama.com).
 
@@ -117,4 +118,5 @@ llm-bench-es/
 
 ## Licencia
 
-El código está bajo licencia [MIT](LICENSE). La licencia del conjunto de preguntas se indica en [`data/README.md`](data/README.md).
+- **Código:** licencia [MIT](LICENSE).
+- **Conjunto de preguntas** (`data/questions.jsonl`): licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Se pueden reutilizar citando la autoría. Ver [`data/README.md`](data/README.md#licencia).

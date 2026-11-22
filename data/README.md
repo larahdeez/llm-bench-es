@@ -26,4 +26,10 @@ Este directorio contiene las preguntas del benchmark. Cada pregunta es una líne
 
 ## Licencia
 
-_Pendiente de decidir. Recomendación: CC BY 4.0 si todas las preguntas son propias._
+Las preguntas de este directorio (`questions.jsonl`) se publican bajo la licencia [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es).
+
+Se pueden copiar, redistribuir y adaptar con cualquier fin, también comercial, siempre que se cite la autoría, se enlace la licencia y se indique si se han hecho cambios. Forma de citarlas:
+
+> Lara Hernández Marcote (2026). *llm-bench-es: preguntas técnicas en español para evaluar LLMs*. https://github.com/larahdeez/llm-bench-es — CC BY 4.0.
+
+El código del repositorio tiene una licencia distinta (MIT, ver [`LICENSE`](../LICENSE)).
