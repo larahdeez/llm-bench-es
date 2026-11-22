@@ -1,5 +1,8 @@
 # llm-bench-es
 
+[![tests](https://github.com/larahdeez/llm-bench-es/actions/workflows/tests.yml/badge.svg)](https://github.com/larahdeez/llm-bench-es/actions/workflows/tests.yml)
+[![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-blue.svg)](LICENSE)
+
 Benchmark reproducible para comparar modelos de lenguaje abiertos en preguntas técnicas en español, con foco en ciberseguridad e ingeniería informática. Los modelos se ejecutan en local con [Ollama](https://ollama.com).
 
 > **Estado:** primera fase completada (comparación de modelos con 60 preguntas de opción múltiple). El estudio de la cuantización y la revisión humana del conjunto de preguntas están pendientes.
