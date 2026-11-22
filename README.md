@@ -5,7 +5,7 @@
 
 Benchmark reproducible para comparar modelos de lenguaje abiertos en preguntas técnicas en español, con foco en ciberseguridad e ingeniería informática. Los modelos se ejecutan en local con [Ollama](https://ollama.com).
 
-> **Estado:** primera fase completada (comparación de modelos con 60 preguntas de opción múltiple). El estudio de la cuantización y la revisión humana del conjunto de preguntas están pendientes.
+> **Estado:** primera fase completada (comparación de modelos con 60 preguntas de opción múltiple). El estudio de la cuantización está pendiente.
 
 ## Preguntas de investigación
 
@@ -48,7 +48,7 @@ Benchmark reproducible para comparar modelos de lenguaje abiertos en preguntas t
 ## Limitaciones
 
 - **Conjunto pequeño.** Con 60 preguntas los intervalos de confianza miden unos ±10 puntos.
-- **Preguntas sin revisión humana completa.** Las preguntas son un borrador (campo `annotator`). Se hizo una revisión que corrigió 10 de ellas, pero todavía falta una revisión independiente.
+- **Una sola revisora.** Las preguntas se redactaron con ayuda de un modelo de lenguaje y las revisó una persona (campo `annotator`), con una primera ronda que corrigió 10 de ellas. Una segunda revisión independiente reduciría el riesgo de claves o enunciados ambiguos.
 - **Solo opción múltiple.** No se evalúan respuestas abiertas ni razonamiento explícito, porque el prompt pide contestar solo con la letra.
 - **Hardware.** Las ejecuciones se hicieron en un portátil sin GPU dedicada, así que las cifras de velocidad son de inferencia en CPU y dependen de ese equipo (ver [Entorno de ejecución](#entorno-de-ejecución)).
 - **Posible contaminación.** Muchos temas son comunes en la web y pueden aparecer en los datos de entrenamiento de los modelos.
@@ -112,7 +112,7 @@ llm-bench-es/
 ## Próximos pasos
 
 - Estudio de la cuantización (Q4, Q8 y F16 del mismo modelo).
-- Ampliar el conjunto a 150-200 preguntas y completar su revisión humana.
+- Ampliar el conjunto a 150-200 preguntas, con una segunda revisión independiente.
 - Un prompt que permita razonar antes de responder, para ver si mejoran las preguntas de cálculo.
 
 ## Licencia
